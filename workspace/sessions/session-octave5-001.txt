@@ -1,0 +1,85 @@
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ date
+Fri 02 Apr 2021 06:09:47 AM +08
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ uname -a
+
+Linux HPEliteBk8470p-ubstudio-20 5.8.0-48-lowlatency #54~20.04.1-Ubuntu SMP PREEMPT 
+Sat Mar 20 23:24:50 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ 
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ ls -al
+total 28
+drwxrwxr-x  6 wruslan wruslan 4096 Apr  2 06:04 .
+drwxrwxr-x 16 wruslan wruslan 4096 Apr  2 06:03 ..
+drwxrwxr-x  3 wruslan wruslan 4096 Apr  1 12:04 general-docs
+drwxrwxr-x  8 wruslan wruslan 4096 Apr  2 05:29 .git
+drwxrwxr-x  8 wruslan wruslan 4096 Mar 22 11:32 octave-5.2.0
+-rw-rw-r--  1 wruslan wruslan   39 Apr  2 05:29 README.md
+drwxrwxr-x  3 wruslan wruslan 4096 Apr  2 06:04 workspace
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ tree ./
+./
+├── general-docs
+│   └── docs
+│       ├── download-latest-nurbs.txt
+│       ├── installation-order-is-important.txt
+│       ├── octave-5.2.0-packages-ubstudio-20.04-LTS.txt
+│       ├── octave-6.2.0-packages-ubstudio-20.04-LTS.txt
+│       ├── OctConf-2015-octave-nurbs.pdf
+│       └── to-copy-octave-packages.txt
+├── octave-5.2.0
+│   ├── docs
+│   │   └── octave-5.2.0-reference-manual.pdf
+│   ├── figures
+│   │   ├── octave-5.2.0-Screenshot from 2021-03-22 12-00-08.png
+│   │   ├── Screenshot_2021-03-31_06-33-31.png
+│   │   ├── Screenshot_2021-03-31_10-21-14.png
+│   │   ├── Screenshot_2021-03-31_10-39-53.png
+│   │   ├── Screenshot_2021-03-31_10-42-00.png
+│   │   ├── Screenshot_2021-03-31_10-42-40.png
+│   │   ├── Screenshot_2021-03-31_10-43-40.png
+│   │   ├── Screenshot_2021-03-31_10-44-14.png
+│   │   ├── Screenshot_2021-03-31_11-43-32.png
+│   │   ├── Screenshot_2021-03-31_11-44-16.png
+│   │   ├── Screenshot_2021-03-31_11-45-02.png
+│   │   └── Screenshot_2021-03-31_11-46-15.png
+│   ├── files
+│   │   ├── bismillah.ngc
+│   │   ├── butterfly.nc
+│   │   ├── just-KSG.ngc
+│   │   └── linuxcnc-logo.nc
+│   ├── installation-octave-5.2.0
+│   │   ├── 01-extract-octave-5.2.0-from-source.txt
+│   │   ├── 02-configure-octave-5.2.0.txt
+│   │   ├── 03-make-octave-5.2.0.txt
+│   │   ├── 04-make-check-octave-5.2.0.txt
+│   │   ├── 05-sudo-make-install-octave-5.2.0.txt
+│   │   ├── 06-octave-compiled-libraries.txt
+│   │   ├── 07-octave-compiled-binaries.txt
+│   │   ├── 08-Test-Screenshot from 2021-03-22 11-45-17.png
+│   │   └── 08-Test-Screenshot from 2021-03-22 11-48-23.png
+│   ├── modules-list
+│   │   └── octave-forge-packages.txt
+│   └── sessions
+│       ├── session-001.txt
+│       └── session-002.txt
+├── README.md
+└── workspace
+    └── sessions
+
+11 directories, 36 files
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-octave5$ 
+
+===========================================================
+
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+

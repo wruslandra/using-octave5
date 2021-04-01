@@ -1,0 +1,295 @@
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ date
+Fri 19 Mar 2021 12:46:21 AM +08
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ uname -a
+Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 #1 SMP PREEMPT_RT 
+Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ lsb_release -a
+LSB Version:    core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04.2 LTS
+Release:        20.04
+Codename:       focal
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+GNU Octave, version 6.2.0 Copyright (C) 2021 The Octave Project Developers.
+
+https://octave.sourceforge.io/packages.php
+
+>> pkg install -forge splines
+
+>> pkg list
+Package Name         | Version | Installation directory
+---------------------+---------+-----------------------
+            arduino  |   0.5.0 | /home/wruslan/octave/arduino-0.5.0
+            control  |   3.2.0 | /home/wruslan/octave/control-3.2.0
+fuzzy-logic-toolkit  |   0.4.6 | /home/wruslan/octave/fuzzy-logic-toolkit-0.4.6
+            general  |   2.1.1 | /home/wruslan/octave/general-2.1.1
+ instrument-control  |   0.7.0 | /home/wruslan/octave/instrument-control-0.7.0
+                 io  |   2.6.1 | /home/wruslan/octave/io-2.6.1
+      miscellaneous  |   1.3.0 | /home/wruslan/octave/miscellaneous-1.3.0
+              optim  |   1.6.1 | /home/wruslan/octave/optim-1.6.1
+           parallel  |   4.0.1 | /home/wruslan/octave/parallel-4.0.1
+             signal  |   1.4.1 | /home/wruslan/octave/signal-1.4.1
+            splines  |   1.3.4 | /home/wruslan/octave/splines-1.3.4
+         statistics  |   1.4.2 | /home/wruslan/octave/statistics-1.4.2
+             struct  |  1.0.17 | /home/wruslan/octave/struct-1.0.17
+           symbolic  |   2.9.0 | /home/wruslan/octave/symbolic-2.9.0
+             zeromq  |   1.5.0 | /home/wruslan/octave/zeromq-1.5.0
+>>
+>> pkg install -forge nan
+
+===========================================================
+>> pkg list
+Package Name         | Version | Installation directory
+---------------------+---------+-----------------------
+            arduino  |   0.5.0 | /home/wruslan/octave/arduino-0.5.0
+            control  |   3.2.0 | /home/wruslan/octave/control-3.2.0
+fuzzy-logic-toolkit  |   0.4.6 | /home/wruslan/octave/fuzzy-logic-toolkit-0.4.6
+            general  |   2.1.1 | /home/wruslan/octave/general-2.1.1
+ instrument-control  |   0.7.0 | /home/wruslan/octave/instrument-control-0.7.0
+                 io  |   2.6.1 | /home/wruslan/octave/io-2.6.1
+      miscellaneous  |   1.3.0 | /home/wruslan/octave/miscellaneous-1.3.0
+                nan  |   3.5.3 | /home/wruslan/octave/nan-3.5.3
+              optim  |   1.6.1 | /home/wruslan/octave/optim-1.6.1
+           parallel  |   4.0.1 | /home/wruslan/octave/parallel-4.0.1
+             signal  |   1.4.1 | /home/wruslan/octave/signal-1.4.1
+            splines  |   1.3.4 | /home/wruslan/octave/splines-1.3.4
+         statistics  |   1.4.2 | /home/wruslan/octave/statistics-1.4.2
+             struct  |  1.0.17 | /home/wruslan/octave/struct-1.0.17
+           symbolic  |   2.9.0 | /home/wruslan/octave/symbolic-2.9.0
+             zeromq  |   1.5.0 | /home/wruslan/octave/zeromq-1.5.0
+>>
+===========================================================
+ALHAMDULILLAH 3 times WRY.
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ locate bin/octave
+/snap/bin/octave
+/snap/bin/octave-cli
+/snap/bin/octave.octave-cli
+/snap/octave/30/bin/octave
+/snap/octave/30/bin/octave-5.2.0
+/snap/octave/30/bin/octave-cli
+/snap/octave/30/bin/octave-cli-5.2.0
+/snap/octave/30/bin/octave-config
+/snap/octave/30/bin/octave-config-5.2.0
+/usr/bin/octave
+/usr/bin/octave-cli
+/usr/bin/octave-config
+/usr/local/bin/octave
+/usr/local/bin/octave-5.2.0
+/usr/local/bin/octave-cli
+/usr/local/bin/octave-cli-5.2.0
+/usr/local/bin/octave-config
+/usr/local/bin/octave-config-5.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-6.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-cli
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-cli-6.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-config
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-config-6.2.0
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ sudo snap remove octave
+[sudo] password for wruslan: 
+octave removed
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ sudo updatedb
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$
+
+===========================================================
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ locate bin/octave
+/home/wruslan/.local/share/Trash/files/octave/parallel-4.0.0/bin/octave-pserver
+/home/wruslan/.local/share/Trash/files/parallel-4.0.0/bin/octave-pserver
+/home/wruslan/octave/parallel-4.0.1/bin/octave-pserver
+/usr/bin/octave
+/usr/bin/octave-cli
+/usr/bin/octave-config
+/usr/local/bin/octave
+/usr/local/bin/octave-5.2.0
+/usr/local/bin/octave-cli
+/usr/local/bin/octave-cli-5.2.0
+/usr/local/bin/octave-config
+/usr/local/bin/octave-config-5.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-6.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-cli
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-cli-6.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-config
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-config-6.2.0
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+USE SYNAPTIC AND REMOVE OCTAVE-5.2.0
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ sudo updatedb
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ locate bin/octave
+/home/wruslan/octave/parallel-4.0.1/bin/octave-pserver
+/usr/local/bin/octave
+/usr/local/bin/octave-5.2.0
+/usr/local/bin/octave-cli
+/usr/local/bin/octave-cli-5.2.0
+/usr/local/bin/octave-config
+/usr/local/bin/octave-config-5.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-6.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-cli
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-cli-6.2.0
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-config
+/var/lib/flatpak/app/org.octave.Octave/x86_64/stable/3102845b8cfb12d5b8ede397e4779ff594dd19054ae105b86706978f42ebd76d/files/bin/octave-config-6.2.0
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/local/bin/ | grep oct
+lrwxrwxrwx  1 root root      15 May  3  2020 mkoctfile -> mkoctfile-5.2.0
+-rwxr-xr-x  1 root root 5596304 May  3  2020 mkoctfile-5.2.0
+lrwxrwxrwx  1 root root      12 May  3  2020 octave -> octave-5.2.0
+-rwxr-xr-x  1 root root  256640 May  3  2020 octave-5.2.0
+lrwxrwxrwx  1 root root      16 May  3  2020 octave-cli -> octave-cli-5.2.0
+-rwxr-xr-x  1 root root  159480 May  3  2020 octave-cli-5.2.0
+lrwxrwxrwx  1 root root      19 May  3  2020 octave-config -> octave-config-5.2.0
+-rwxr-xr-x  1 root root 1027800 May  3  2020 octave-config-5.2.0
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/local
+total 64
+drwxr-xr-x 16 root root 4096 Mar 17 07:12 .
+drwxr-xr-x 16 root root 4096 Feb 12 11:09 ..
+drwxr-xr-x  2 root root 4096 Mar  3 20:48 bin
+drwxr-xr-x  3 root root 4096 Jan 20  2020 doc
+drwxr-xr-x  2 root root 4096 Apr 18  2020 etc
+drwxr-xr-x  2 root root 4096 Apr 27  2018 games
+drwxr-xr-x 10 root root 4096 Mar 12 01:14 go
+drwxr-xr-x 14 root root 4096 Nov 29 23:05 include
+drwxr-xr-x 20 root root 4096 Mar  3 19:52 lib
+drwxr-xr-x  2 root root 4096 Mar 30  2020 lib32
+drwxr-xr-x  2 root root 4096 Mar 30  2020 lib64
+drwxr-xr-x  5 root root 4096 May  3  2020 libexec
+lrwxrwxrwx  1 root root    9 Jan 16  2020 man -> share/man
+drwxr-xr-x  7 root root 4096 Nov 20 22:13 qwt-6.1.5
+drwxr-xr-x  2 root root 4096 Apr 27  2018 sbin
+drwxr-xr-x 22 root root 4096 Nov 22 11:16 share
+drwxr-xr-x  3 root root 4096 Jan 17  2020 src
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+lrwxrwxrwx  1 root root      15 May  3  2020 mkoctfile -> mkoctfile-5.2.0
+-rwxr-xr-x  1 root root 5596304 May  3  2020 mkoctfile-5.2.0
+lrwxrwxrwx  1 root root      12 May  3  2020 octave -> octave-5.2.0
+-rwxr-xr-x  1 root root  256640 May  3  2020 octave-5.2.0
+lrwxrwxrwx  1 root root      16 May  3  2020 octave-cli -> octave-cli-5.2.0
+-rwxr-xr-x  1 root root  159480 May  3  2020 octave-cli-5.2.0
+lrwxrwxrwx  1 root root      19 May  3  2020 octave-config -> octave-config-5.2.0
+-rwxr-xr-x  1 root root 1027800 May  3  2020 octave-config-5.2.0
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ which octave
+/usr/local/bin/octave
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ octave --help
+GNU Octave, version 5.2.0
+Copyright (C) 2020 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.
+
+Octave was configured for "x86_64-pc-linux-gnu".
+
+Usage: octave [options] [FILE]
+
+Options:
+
+  --built-in-docstrings-file FILE Use docs for built-ins from FILE.
+  --debug, -d             Enter parser debugging mode.
+  --debug-jit             Enable JIT compiler debugging/tracing.
+  --doc-cache-file FILE   Use doc cache file FILE.
+  --echo-commands, -x     Echo commands as they are executed.
+  --eval CODE             Evaluate CODE.  Exit when done unless --persist.
+  --exec-path PATH        Set path for executing subprograms.
+  --gui                   Start the graphical user interface.
+  --help, -h,             Print short help message and exit.
+  --image-path PATH       Add PATH to head of image search path.
+  --info-file FILE        Use top-level info file FILE.
+  --info-program PROGRAM  Use PROGRAM for reading info files.
+  --interactive, -i       Force interactive behavior.
+  --jit-compiler          Enable the JIT compiler.
+  --line-editing          Force readline use for command-line editing.
+  --no-gui                Disable the graphical user interface.
+  --no-history, -H        Don't save commands to the history list
+  --no-init-file          Don't read the ~/.octaverc or .octaverc files.
+  --no-init-path          Don't initialize function search path.
+  --no-line-editing       Don't use readline for command-line editing.
+  --no-site-file          Don't read the site-wide octaverc file.
+  --no-window-system, -W  Disable window system, including graphics.
+  --norc, -f              Don't read any initialization files.
+  --path PATH, -p PATH    Add PATH to head of function search path.
+  --persist               Go interactive after --eval or reading from FILE.
+  --silent, --quiet, -q   Don't print message at startup.
+  --texi-macros-file FILE Use Texinfo macros in FILE for makeinfo command.
+  --traditional           Set variables for closer MATLAB compatibility.
+  --verbose, -V           Enable verbose output in some cases.
+  --version, -v           Print version number and exit.
+
+  FILE                    Execute commands from FILE.  Exit when done
+                          unless --persist is also specified.
+
+Additional information about Octave is available at https://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit https://www.octave.org/get-involved.html
+
+Read https://www.octave.org/bugs.html to learn how to submit bug reports.
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ octave
+GNU Octave, version 5.2.0
+Copyright (C) 2020 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-pc-linux-gnu".
+
+Additional information about Octave is available at https://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit https://www.octave.org/get-involved.html
+
+Read https://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+octave:1> pkg list
+Package Name         | Version | Installation directory
+---------------------+---------+-----------------------
+            arduino  |   0.5.0 | /home/wruslan/octave/arduino-0.5.0
+            control  |   3.2.0 | /home/wruslan/octave/control-3.2.0
+fuzzy-logic-toolkit  |   0.4.6 | /home/wruslan/octave/fuzzy-logic-toolkit-0.4.6
+            general  |   2.1.1 | /home/wruslan/octave/general-2.1.1
+ instrument-control  |   0.7.0 | /home/wruslan/octave/instrument-control-0.7.0
+                 io  |   2.6.1 | /home/wruslan/octave/io-2.6.1
+      miscellaneous  |   1.3.0 | /home/wruslan/octave/miscellaneous-1.3.0
+                nan  |   3.5.3 | /home/wruslan/octave/nan-3.5.3
+              optim  |   1.6.1 | /home/wruslan/octave/optim-1.6.1
+           parallel  |   4.0.1 | /home/wruslan/octave/parallel-4.0.1
+             signal  |   1.4.1 | /home/wruslan/octave/signal-1.4.1
+            splines  |   1.3.4 | /home/wruslan/octave/splines-1.3.4
+         statistics  |   1.4.2 | /home/wruslan/octave/statistics-1.4.2
+             struct  |  1.0.17 | /home/wruslan/octave/struct-1.0.17
+           symbolic  |   2.9.0 | /home/wruslan/octave/symbolic-2.9.0
+             zeromq  |   1.5.0 | /home/wruslan/octave/zeromq-1.5.0
+octave:2> 
+octave:2> ^Z
+[1]+  Stopped                 octave
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+
+

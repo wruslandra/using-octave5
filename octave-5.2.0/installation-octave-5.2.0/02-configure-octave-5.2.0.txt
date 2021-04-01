@@ -1,0 +1,211 @@
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ date
+Mon 22 Mar 2021 10:30:23 AM +08
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ uname -a
+Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 #1 SMP PREEMPT_RT 
+Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+SUMMARY OF STEPS
+===========================================================
+(1) Extract source code
+(2) ./configure
+(3) make             ... NOTE: Takes a long time.
+(4) make check
+(5) sudo make install
+(6) check compiled libraries
+(7) check compiled binaries
+(8) test compiled binaries
+
+===========================================================
+(2) CONFIGURE
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/opt/octave-5.2.0$ ./configure
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for style of include used by make... GNU
+checking for gcc... gcc -O2
+checking whether the C compiler works... yes
+....
+....
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing oct-conf-post.h commands
+config.status: executing libgui/mk-default-qt-settings.sh commands
+config.status: executing liboctave/external/mk-f77-def.sh commands
+config.status: executing liboctave/mk-version-h.sh commands
+config.status: executing libinterp/corefcn/mk-mxarray-h.sh commands
+config.status: executing build-aux/subst-config-vals.sh commands
+config.status: executing build-aux/subst-cross-config-vals.sh commands
+config.status: executing build-aux/subst-script-vals.sh commands
+configure:
+
+Octave is now configured for x86_64-pc-linux-gnu
+
+  Source directory:              .
+  Installation prefix:           /usr/local
+  C compiler:                    gcc -O2  -pthread -fopenmp  -Wall -W -Wshadow -Wformat -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wwrite-strings -Wcast-align -Wcast-qual -g -O2
+  C++ compiler:                  g++ -O2  -pthread -fopenmp  -Wall -W -Wshadow -Wold-style-cast -Wformat -Wpointer-arith -Wwrite-strings -Wcast-align -Wcast-qual -g -O2
+  Fortran compiler:              gfortran -g -O2 -std=legacy
+  Fortran libraries:              -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -lgfortran -lm -lquadmath
+  Lex libraries:                 
+  LIBS:                          -lutil  -lm 
+  LDFLAGS:                       
+  Extra LDFLAGS:                 
+
+  AMD CPPFLAGS:                  
+  AMD LDFLAGS:                   
+  AMD libraries:                 -lamd
+  ARPACK CPPFLAGS:               -I/usr/include/arpack
+  ARPACK LDFLAGS:                
+  ARPACK libraries:              -larpack
+  BLAS libraries:                -lopenblas
+  BZ2 CPPFLAGS:                  
+  BZ2 LDFLAGS:                   
+  BZ2 libraries:                 -lbz2
+  CAMD CPPFLAGS:                 
+  CAMD LDFLAGS:                  
+  CAMD libraries:                -lcamd
+  CARBON libraries:              
+  CCOLAMD CPPFLAGS:              
+  CCOLAMD LDFLAGS:               
+  CCOLAMD libraries:             -lccolamd
+  CHOLMOD CPPFLAGS:              
+  CHOLMOD LDFLAGS:               
+  CHOLMOD libraries:             -lcholmod
+  COLAMD CPPFLAGS:               
+  COLAMD LDFLAGS:                
+  COLAMD libraries:              -lcolamd
+  CURL CPPFLAGS:                 
+  CURL LDFLAGS:                  
+  CURL libraries:                -lcurl
+  CXSPARSE CPPFLAGS:             
+  CXSPARSE LDFLAGS:              
+  CXSPARSE libraries:            -lcxsparse
+  DL libraries:                  -ldl
+  FFTW3 CPPFLAGS:                
+  FFTW3 LDFLAGS:                 
+  FFTW3 libraries:               -lfftw3_threads -lfftw3
+  FFTW3F CPPFLAGS:               
+  FFTW3F LDFLAGS:                
+  FFTW3F libraries:              -lfftw3f_threads -lfftw3f
+  FLTK CPPFLAGS:                 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16
+  FLTK LDFLAGS:                  
+  FLTK libraries:                -lfltk_gl -lfltk -lX11
+  fontconfig CPPFLAGS:           -I/usr/local/include/freetype2 -I/usr/include/uuid -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+  fontconfig libraries:          -lfontconfig -lfreetype
+  FreeType2 CPPFLAGS:            -I/usr/local/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+  FreeType2 libraries:           -L/usr/local/lib -lfreetype
+  GLPK CPPFLAGS:                 
+  GLPK LDFLAGS:                  
+  GLPK libraries:                -lglpk
+  HDF5 CPPFLAGS:                 -I/usr/include/hdf5/serial
+  HDF5 LDFLAGS:                  -L/usr/lib/x86_64-linux-gnu/hdf5/serial
+  HDF5 libraries:                -lhdf5
+  Java home:                     /usr/lib/jvm/jdk-13.0.2
+  Java JVM path:                 /usr/lib/jvm/jdk-13.0.2/lib/server
+  Java CPPFLAGS:                 -I/usr/lib/jvm/jdk-13.0.2/include -I/usr/lib/jvm/jdk-13.0.2/include/linux
+  Java libraries:                
+  KLU CPPFLAGS:                  
+  KLU LDFLAGS:                   
+  KLU libraries:                 -lklu
+  LAPACK libraries:              
+  LLVM CPPFLAGS:                 
+  LLVM LDFLAGS:                  
+  LLVM libraries:                
+  Magick++ CPPFLAGS:             -I/usr/include/GraphicsMagick
+  Magick++ LDFLAGS:              
+  Magick++ libraries:            -lGraphicsMagick++ -lGraphicsMagick
+  OpenGL libraries:              -lGL -lGLU
+  PCRE CPPFLAGS:                 
+  PCRE LDFLAGS:                  
+  PCRE libraries:                -lpcre
+  PortAudio CPPFLAGS:            
+  PortAudio LDFLAGS:             
+  PortAudio libraries:           -lportaudio -lasound -lm -lpthread
+  PTHREAD flags:                 -pthread
+  PTHREAD libraries:             
+  QHULL CPPFLAGS:                
+  QHULL LDFLAGS:                 
+  QHULL libraries:               -lqhull
+  QRUPDATE CPPFLAGS:             
+  QRUPDATE LDFLAGS:              
+  QRUPDATE libraries:            -lqrupdate
+  Qt CPPFLAGS:                   -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtHelp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtSql -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtXml -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+  Qt LDFLAGS:                    
+  Qt GUI libraries:              -lQt5Network -lQt5PrintSupport -lQt5Help -lQt5Widgets -lQt5Gui -lQt5Sql -lQt5Xml -lQt5Core -lqscintilla2_qt5
+  Qt OpenGL libraries:           -lQt5OpenGL -lQt5Widgets -lQt5Gui -lQt5Core
+  Qt moc:                        moc -qt5
+  Qt uic:                        uic -qt5
+  Qt rcc:                        rcc -qt5
+  Qt lrelease:                   lrelease -qt5
+  Qt qcollectiongenerator:       qcollectiongenerator -qt5
+  Qt qhelpgenerator:             qhelpgenerator -qt5
+  READLINE libraries:            -lreadline
+  Sndfile CPPFLAGS:              
+  Sndfile LDFLAGS:               
+  Sndfile libraries:             -lsndfile
+  SuiteSparse config libraries:  -lsuitesparseconfig
+  SUNDIALS IDA CPPFLAGS:         
+  SUNDIALS IDA LDFLAGS:          
+  SUNDIALS IDA libraries:        
+  SUNDIALS NVECTOR CPPFLAGS:     
+  SUNDIALS NVECTOR LDFLAGS:      
+  SUNDIALS NVECTOR libraries:    
+  TERM libraries:                -lncurses
+  UMFPACK CPPFLAGS:              
+  UMFPACK LDFLAGS:               
+  UMFPACK libraries:             -lumfpack
+  X11 include flags:             
+  X11 libraries:                 -lX11
+  Z CPPFLAGS:                    
+  Z LDFLAGS:                     
+  Z libraries:                   -lz
+
+  Default pager:                 less
+  gnuplot:                       gnuplot
+
+  Build Octave Qt GUI:                  yes (version: 5)
+  JIT compiler for loops:               no
+  Build Java interface:                 yes
+  Build static libraries:               no
+  Build shared libraries:               yes
+  Dynamic Linking API:                  dlopen
+  Include support for GNU readline:     yes
+  64-bit array dims and indexing:       yes
+  64-bit BLAS array dims and indexing:  no
+  OpenMP SMP multithreading:            yes
+  Truncate intermediate FP results:     yes
+  Build cross tools:                    no
+  Build docs:                           yes
+
+configure: WARNING: SUNDIALS IDA library does not include the IDADENSE linear solver, ode15i and ode15s will be disabled
+configure: WARNING: SUNDIALS IDA library not configured with IDAKLU, ode15i and ode15s will not support the sparse Jacobian feature
+configure: 
+configure: NOTE: Libraries or auxiliary programs may be skipped if they are not found
+configure: NOTE: OR if they are missing required features on your system.
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/opt/octave-5.2.0$ 
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+
